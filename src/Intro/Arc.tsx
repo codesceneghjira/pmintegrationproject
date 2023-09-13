@@ -18,7 +18,7 @@ export const Arc: React.FC<{
 			mass: 10,
 		},
 	});
-
+//test
 	const opacity = interpolate(progress, [0, 0.2], [0, 0.7], {
 		extrapolateRight: 'clamp',
 		extrapolateLeft: 'clamp',
