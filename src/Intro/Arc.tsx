@@ -24,6 +24,8 @@ export const Arc: React.FC<{
 		extrapolateLeft: 'clamp',
 	});
 
+	//test
+
 	const strokeWidth = interpolate(progress, [0, 1], [200, 60]);
 
 	return (
